@@ -2,7 +2,7 @@ _meta:
   version: '1.0'
   entity_type: node
   uuid: cd580567-d448-41b4-88e2-0d6914d0d821
-  bundle: icms_news
+  bundle: icms_page
   default_langcode: de
   depends:
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
@@ -50,10 +50,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de/news/news-uebersicht'
+        href: 'https://starterkit.ddev.site/de/news-uebersicht'
   path:
     -
-      alias: /news/news-uebersicht
+      alias: /news-uebersicht
       langcode: de
       pathauto: 1
   content_translation_source:
