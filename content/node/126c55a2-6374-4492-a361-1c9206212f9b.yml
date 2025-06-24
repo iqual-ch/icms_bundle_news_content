@@ -5,13 +5,14 @@ _meta:
   bundle: icms_news
   default_langcode: de
   depends:
-    1fee6729-7d23-4125-a184-18a84d1eeffc: media
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
     f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
     b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
 default:
   revision_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   status:
     -
       value: true
@@ -20,7 +21,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'News Artikel 4'
+      value: 'News Artikel 4 Thema B und C'
   created:
     -
       value: 1750083545
@@ -41,7 +42,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'News Artikel 4 | ICMS'
+        content: 'News Artikel 4 Thema B und C | ICMS'
     -
       tag: meta
       attributes:
@@ -51,10 +52,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de/news/news-artikel-4'
+        href: 'http://default/de/news/news-artikel-4-thema-b-und-c'
   path:
     -
-      alias: /news/news-artikel-4
+      alias: /news/news-artikel-4-thema-b-und-c
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -72,26 +73,23 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750083620
+      last_comment_timestamp: 1750140317
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
   field_icms_teaser_image:
     -
-      entity: 1fee6729-7d23-4125-a184-18a84d1eeffc
-  field_icms_teaser_link_label:
-    -
-      value: 'Anderes Etikett'
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
   field_icms_teaser_pretitle:
     -
-      value: 'Custom Vortitel'
+      value: 'Thema B und C'
   field_icms_teaser_text:
     -
-      value: '<p>Custom Text Lorem ipsum dolor sit amet consectetur adipiscing elit</p>'
+      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
       format: icms_restricted
   field_icms_teaser_title:
     -
-      value: 'Custom Titel'
+      value: 'Artikel 4'
   field_icms_topics:
     -
       entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808

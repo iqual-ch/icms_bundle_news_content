@@ -5,12 +5,14 @@ _meta:
   bundle: icms_page
   default_langcode: de
   depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
     b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
 default:
   revision_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   status:
     -
       value: true
@@ -19,7 +21,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'News Übersicht'
+      value: News
   created:
     -
       value: 1750083370
@@ -40,7 +42,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'News Übersicht | ICMS'
+        content: 'News | ICMS'
     -
       tag: meta
       attributes:
@@ -50,10 +52,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de/news-uebersicht'
+        href: 'http://default/de/news'
   path:
     -
-      alias: /news-uebersicht
+      alias: /news
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -71,7 +73,7 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750083440
+      last_comment_timestamp: 1750140317
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
@@ -112,20 +114,29 @@ default:
               value: all
           field_icms_pretitle:
             -
-              value: 'Lorem ipsum'
+              value: Übersicht
           field_icms_text:
             -
-              value: '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit mollis natoque, ornare potenti curabitur dignissim consequat posuere per tortor, cubilia ante sociosqu sed porttitor a ligula mauris. Montes cum arcu id <strong>magna erat diam</strong> sociosqu hendrerit ligula congue, urna purus facilisis nullam natoque cubilia mi nunc eu, dui maecenas porta mus parturient nibh <a href="https://www.iqual.ch/" target="_blank">donec iaculis duis</a>.</p><p>Nullam dis sociis euismod venenatis aliquet <em>semper cubilia</em>, vel dignissim class vitae habitant massa eget, habitasse odio tempor laoreet mattis pretium.</p>'
+              value: '<p>Die <strong>News-Übersicht-Seite</strong> listet sämtliche vorhandenen News-Beiträge auf, ermöglicht eine Filterung nach Thema oder Taxonomie und verwendet eine frei definierbare Pagination mit zunächst zwölf Einträgen, wobei bei Bedarf automatisch weitere Beiträge nachgeladen werden. Oberhalb und unterhalb der Newsübersicht können zudem beliebige Layouts platziert werden, um etwa Einleitungen, Call-to-Actions oder ergänzende Inhalte flexibel zu integrieren.</p>'
               format: icms_basic
           field_icms_title:
             -
-              value: 'Content Hub Übersicht'
+              value: News
           field_icms_title_style:
             -
               value: heading-2
           field_icms_title_weight:
             -
               value: h1
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Übersicht
+  field_icms_teaser_title:
+    -
+      value: News
   field_icms_topics:
     -
       entity: 73a2d543-f54a-4839-82e8-b47627635b66

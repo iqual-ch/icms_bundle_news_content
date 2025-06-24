@@ -12,7 +12,7 @@ default:
       value: true
   title:
     -
-      value: 'News Übersicht'
+      value: News
   menu_name:
     -
       value: main
@@ -20,7 +20,10 @@ default:
     -
       target_uuid: cd580567-d448-41b4-88e2-0d6914d0d821
       title: ''
-      options: {  }
+      options:
+        attributes:
+          class:
+            - ''
   external:
     -
       value: false
@@ -29,13 +32,16 @@ default:
       value: false
   weight:
     -
-      value: 50
+      value: 30
   expanded:
     -
       value: false
   revision_translation_affected:
     -
       value: true
+  view_mode:
+    -
+      value: default
   metatag:
     -
       tag: meta
@@ -46,7 +52,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de'
+        href: 'http://default/de'
   content_translation_source:
     -
       value: und
