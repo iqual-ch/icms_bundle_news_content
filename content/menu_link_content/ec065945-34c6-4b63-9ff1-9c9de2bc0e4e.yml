@@ -3,7 +3,7 @@ _meta:
   entity_type: menu_link_content
   uuid: ec065945-34c6-4b63-9ff1-9c9de2bc0e4e
   bundle: main
-  default_langcode: en
+  default_langcode: de
   depends:
     7823ab59-f1c7-48f7-9471-2eea4c034c87: menu_link_content
     ea5db434-8804-4578-a875-ec90be4600ed: node
@@ -51,7 +51,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/en'
+        href: 'http://default/de'
   content_translation_source:
     -
       value: und

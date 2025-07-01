@@ -3,7 +3,7 @@ _meta:
   entity_type: node
   uuid: 072ef50e-137b-4fc7-806d-6145d1727541
   bundle: icms_page
-  default_langcode: en
+  default_langcode: de
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
     6462ab73-beb9-449b-b85b-29b185216c3e: media
@@ -51,11 +51,11 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/en/news/news-kontextfilter'
+        href: 'http://default/de/news/news-kontextfilter'
   path:
     -
       alias: /news/news-kontextfilter
-      langcode: en
+      langcode: de
       pathauto: 1
   content_translation_source:
     -
@@ -84,7 +84,7 @@ default:
           entity_type: paragraph
           uuid: 4ebc19b2-5f65-4566-b0d3-44720e71eb21
           bundle: icms_layout_news
-          default_langcode: en
+          default_langcode: de
         default:
           status:
             -
