@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'Current articles, automatically listed.'
           field_icms_text:
             -
               value: '<p>The News bundle publishes dated articles with topics and teaser images. Listings can show everything, filter contextually by the topics of the current page, or use a manual topic selection.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Aktuelle Beiträge, automatisch gelistet.'
             field_icms_text:
               -
                 value: '<p>Das News-Bundle publiziert datierte Beiträge mit Themen und Teaser-Bildern. Listen zeigen alles, filtern kontextuell nach den Themen der aktuellen Seite oder verwenden eine manuelle Themenauswahl.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Articles actuels, listés automatiquement.'
             field_icms_text:
               -
                 value: '<p>Le bundle News publie des articles datés avec thèmes et images teaser. Les listes affichent tout, filtrent contextuellement selon les thèmes de la page ou utilisent une sélection manuelle.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Articoli attuali, elencati automaticamente.'
             field_icms_text:
               -
                 value: '<p>Il bundle News pubblica articoli datati con temi e immagini teaser. Gli elenchi mostrano tutto, filtrano contestualmente secondo i temi della pagina o usano una selezione manuale.</p>'
